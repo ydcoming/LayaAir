@@ -49,7 +49,6 @@ LayaAir设计之初便以性能为最高优先级，引擎优先使用webgl渲�
     }
 ####TS版本
    /// <reference path="../../libs/LayaAir.d.ts" />
-   
 class LayaStart {
 
     constructor() {
@@ -65,11 +64,8 @@ class LayaStart {
         ape.loadImage("res/apes/monkey2.png", 220, 128);
         
         Laya.stage.addChild(ape);
-        
     }
 }
-
-
 new LayaStart();
 
 
